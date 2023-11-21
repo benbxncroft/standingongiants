@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list-link {
+    display: block;
+    line-height: 1.8;
+}
+
+.table-heading, .table-row {
+    display: flex;
+}
+
+.table-row, p {
+    flex: 1;
+}
